@@ -1,8 +1,8 @@
 /* ON DOM READY
 ====================================*/
 
-			
-	
+
+
 jQuery(document).ready(function($) {
 
 	//RANDOM SLIDESHOW
@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
 		smartSpeed: 300
 	});
 
-	
+
 	$('.popup-video').magnificPopup({
 		disableOn: 700,
 		type: 'iframe',
@@ -23,8 +23,8 @@ jQuery(document).ready(function($) {
 		preloader: false,
 
 		fixedContentPos: false
-	});	
-	
+	});
+
 	$('#photo-gallery').magnificPopup({
 		delegate: 'a',
 		type: 'image',
@@ -35,32 +35,22 @@ jQuery(document).ready(function($) {
 			navigateByImgClick: true,
 			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
 		}
-		
 	});
 
-	
-	 
-	
-	
-	
-  
 });
 //END DOC.READY
 
 
 
-
 (function($){
-	    
-       
-$('#page-wrap').waypoint(function() {
-  	$('#header').toggleClass('scrolled');
-}); 
-    
-    
-    
-	$('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+
+
+  $('#page-wrap').waypoint(function() {
+    	$('#header').toggleClass('scrolled');
+  });
+
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
         || location.hostname == this.hostname) {
 
         var target = $(this.hash);
@@ -72,27 +62,30 @@ $('#page-wrap').waypoint(function() {
             return false;
         }
     }
-});
-   
-$('.ham-wrap').click(function(){
-		 $(this).toggleClass('ham-wrap-open');
-		 $('.menu-main-menu-wrapper').toggleClass('is-open');
-		 if($('.ham-wrap').hasClass('ham-wrap-open')){
-		
-		$('#menu-main-menu a').on('click',function(){
-		
-			$('.menu-main-menu-wrapper').removeClass('is-open');
-			 $('.ham-wrap').removeClass('ham-wrap-open');
-		});
-	}
-		
-		 });
+  });
+
+  $('.ham-wrap').click(function(){
+    $(this).toggleClass('ham-wrap-open');
+    $('.menu-main-menu-wrapper').toggleClass('is-open');
+    if($('.ham-wrap').hasClass('ham-wrap-open')){
+      $('#menu-main-menu a').on('click',function(){
+        $('.menu-main-menu-wrapper').removeClass('is-open');
+        $('.ham-wrap').removeClass('ham-wrap-open');
+      });
+    }
+  });
 
 
-
+  $(window).load(function() {
+    var permaPop = $('#js-perma-pop');
+    if (permaPop.length) {
+      permaPop.trigger('click');
+      return false;
+    }
+  });
 
 })(jQuery);
 
 
-	
+
 
