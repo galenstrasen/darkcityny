@@ -1,0 +1,16 @@
+@media (max-width: 991px) {
+
+body {
+	padding-top: 255px;
+}
+
+#header .logo img {
+	width: 150px;
+}
+
+#contact-section {
+	padding-left: 30px;
+}
+
+
+}

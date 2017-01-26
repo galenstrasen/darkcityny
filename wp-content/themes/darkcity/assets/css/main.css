@@ -1,0 +1,711 @@
+/*
+ = TABLE OF CONTENTS
+
+ *	1.		Global Styles & Layout
+ *			- 1.1 Typography
+ 				- Header styles
+ 				- Block quotes
+ 				Forms
+ 			- 1.2 Colors
+ 			- 1.3 Buttons
+ *			- 1.4 Layout
+ *			
+ *	2.		Global Elements
+ 			- 2.1 Share Block
+ 			- 2.2 Slider Dots
+ 			- 2.3 Page Wrap
+ 			- 2.4 Page Content
+ *	3. 		Header
+ *	4.		Main Navigation
+ 			Page Template: Front Page
+ 			- .1 Home Caption
+ 			- .1 Slideshow Nav
+ 			- .2 Map Toggle
+ 			- .3 Home Content
+ 			- .4 Issue Blocks
+ *	5.		Loop
+ *	6.		Comments
+ *	7.		Sidebar
+ *	8.		Footer
+ 			- Footer Form
+ *
+ 
+ Colors:
+ 
+ lightgray: #BCBEC0;
+*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+
+/* 1. GLOBAL
+==================================================== */
+body {
+	margin: 0;
+	padding: 270px 0 0 0;
+	background: #000;
+	font: 16px/24px 'Lato', sans-serif;
+}
+
+/* 1.1 TYPOGRAPHY
+======================== */
+
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6 {
+	margin-top: 0;
+	text-transform: uppercase;
+	font-family:'Oswald',sans-serif;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+
+h5, .h5 {
+	font-size: 16px;
+}
+
+h4, .h4 {
+	font-size: 18px;
+}
+
+h3, .h3 {
+	font-size: 24px;
+}
+
+h2, .h2 {
+	font-size: 33px;
+}
+
+h1, .h1 {
+	font-size: 66px;
+	line-height: 64px;
+}
+
+a,
+a:visited {
+	color: #FF0000;
+	text-decoration: none!important;
+}
+
+a,
+a:visited {}
+
+hr.white {
+	border-top: 10px solid #fff;
+}
+
+/* 1.2 COLORS
+======================== */
+/* COLORS */
+.white,
+a.white,
+a.white:visited {
+	color: #FFF!important;
+}
+
+.gray,
+a.gray,
+a.gray:visited {
+	color: #BCBEC0!important;
+}
+
+.dark-gray,
+a.dark-gray,
+a.dark-gray:visited {
+	color: #1B1B1B!important;
+}
+
+.black,
+a.black,
+a.black:visited {
+	color: #000!important;
+}
+
+.red,
+a.red,
+a.red:visited {
+	color: #FF0000!important;
+}
+
+/* BACKGROUND COLORS */
+.black-bg {
+	background: #000;
+}
+
+.gray-bg {
+	background: #BCBEC0;
+}
+
+.dark-gray-bg {
+	background: #1B1B1B;
+}
+
+.red-bg {
+	background: #FF0000;
+}
+
+.white-bg {
+	background: #fff;
+}
+
+/* 1.3 BUTTONS
+======================== */
+
+.btn {
+	font: bold 18px/20px 'Oswald',sans-serif;
+	border: none;
+	border-radius: 1px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 20px 30px;
+}
+
+
+
+/* BUTTON COLORS */
+.btn-black {
+	background: #000;
+	color: #FFF;
+}
+
+.btn-white {
+	background: #FFF;
+	color: #000;
+}
+
+.btn-gray {
+	background: #BCBEC0;
+	color: #FFF;
+}
+
+.btn-red {
+	background: #FF0000;
+	color: #FFF!important;
+}
+
+.btn-black:hover,
+.btn-black:active,
+.btn-gray:hover,
+.btn-gray:active {
+	background: #FF0000;
+	color: #FFF;
+}
+
+.btn-white:hover,
+.btn-white:active {
+	background: #FF0000;
+	color: #000;
+}
+
+.btn-ghost {
+	border-width: 2px;
+	border-style: solid;
+	background: transparent;
+}
+
+.btn-ghost.btn-gray {
+	color: #BCBEC0;
+	border-color: #BCBEC0;
+}
+
+.btn-ghost.btn-gray:hover,
+.btn-ghost.btn-gray:active {
+	background: transparent;
+	border-color: #FF0000;
+	color: #FF0000;
+}
+
+.btn-ghost.btn-white {
+	color: #FFF;
+	border-color: #FFF;
+}
+
+/* EDIT LINK */
+
+.post-edit-link,
+.post-edit-link:visited {
+	position: absolute;
+	left: 0;
+	padding: 5px 5px 5px 25px;
+	font: normal 14px/20px 'Arial',sans-serif;
+	background: #117291;
+	color: #fff;
+	width: 110px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 5px 0;
+}
+
+.post-edit-link:before {
+	position: absolute;
+	left: 5px;
+	font-family: 'FontAwesome';
+	content: '\f044';
+	width: 20px;
+}
+
+.post-edit-link:after {
+	position: absolute;
+	content: '';
+	left: 110px;
+	top: 0;
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-left: 10px solid #117291;
+	border-bottom: 15px solid transparent;
+	transition: all .5s linear;
+	-moz-transition: all .5s linear; /* Firefox 4 */
+	-webkit-transition: all .5s linear; /* Safari and Chrome */
+	-o-transition: all .5s linear; /* Opera */
+}
+
+.post-edit-link:hover,
+.post-edit-link:active {
+	background: #FF0000;
+	color:#FFF;
+}
+
+.post-edit-link:hover:after,
+.post-edit-link:active:after {
+	border-left-color: #FF0000;
+}
+
+/* 1.4. LAYOUT
+================== */
+.b-margin0 {
+	margin-bottom: 0;
+}
+
+.t-margin0 {
+	margin-top: 0;
+}
+
+.tb-margin0 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.l-padded0 {
+	padding-left: 0;
+}
+
+.r-padded0 {
+	padding-right: 0;
+}
+
+.lr-padded0 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+/* 2.2 SLIDER DOTS
+======================== */
+
+.slider-dots .owl-dots {
+	position: relative;
+	width: 100%;
+	height: auto;
+	
+	text-align: center;
+}
+
+.slider-dots .owl-dot {
+	height: 14px;
+	width: 14px;
+	border-radius: 50%;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.slider-dots .owl-dot.active {
+	border-width: 3px;
+	border-style: solid;
+	height: 20px;
+	width: 20px;
+	position: relative;
+	top: 3px;
+}
+
+/* GRAY SLIDER DOTS */
+
+.slider-dots.dots-gray .owl-dot {
+	background: #67686A;
+}
+
+.slider-dots.dots-gray .owl-dot.active {
+	border-color: #67686A;
+	background: rgba(0,0,0,0.5);
+}
+
+/* WHITE SLIDER DOTS */
+
+.slider-dots.dots-white .owl-dot {
+	background: #FFF;
+}
+
+.slider-dots.dots-white .owl-dot.active {
+	border-color: #FFF;
+	background: rgba(255,255,255,0.5);
+}
+
+/* GRAY MENU */
+
+.gray-menu-wrapper {
+	width: 100%;
+	padding: 20px 0;
+	background: #BCBEC0;
+}
+
+.gray-menu {
+	text-align: center;
+}
+
+.gray-menu li {
+	font-size: 18px;
+	font-weight: 300;
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.gray-menu li a,
+.gray-menu li a:visited {
+	color: #FFF;
+}
+
+.gray-menu li a:hover,
+.gray-menu li a:active {
+	color: #FF0000;
+}
+
+
+/* 3. HEADER
+==================================================== */
+
+/* # LOGO
+=========================================== */
+#header {
+	background: #000;
+}
+
+#header .contact-links {
+	font-size: 14px;
+	padding: 5px 0; 
+	position: absolute; 
+	z-index: 1;
+	right: 15px; 
+	letter-spacing: 1px; 
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#header .contact-links .phone {
+	padding-left: 15px;
+	color: #FFF;
+}
+
+#header .contact-links a,
+#header .contact-links a:visited {
+	color: #FFF;
+}
+
+#header .contact-links a:hover,
+#header .contact-links a:active {
+	color: #FF0000;
+}
+
+#header .logo-wrap {
+	text-align: center;
+	padding-top: 15px; 
+	/*margin-top: -40px; */
+		transition: all .3s linear;
+	-moz-transition: all .3s linear; /* Firefox 4 */
+	-webkit-transition: all .3s linear; /* Safari and Chrome */
+	-o-transition: all .3s linear; /* Opera */
+}
+
+#header .logo {
+	display: block;
+	margin-bottom: 15px;
+		transition: all .3s linear;
+	-moz-transition: all .3s linear; /* Firefox 4 */
+	-webkit-transition: all .3s linear; /* Safari and Chrome */
+	-o-transition: all .3s linear; /* Opera */
+}
+
+#header .logo img {
+		transition: all .3s linear;
+	-moz-transition: all .3s linear; /* Firefox 4 */
+	-webkit-transition: all .3s linear; /* Safari and Chrome */
+	-o-transition: all .3s linear; /* Opera */
+}
+
+/* # NAV
+=========================================== */
+.header-menu li {
+	display: inline-block;
+	font: 300 20px 'Oswald',sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0 10px;
+}
+
+.header-menu li a,
+.header-menu li a:visited{
+	color: #FFF;
+}
+
+.header-menu li a:hover,
+.header-menu li a:active,
+.header-menu li.current-menu-item a,
+.header-menu li.current-menu-item a:visited,
+.header-menu li.current-page-ancestor a,
+.header-menu li.current-page-ancestor a:visited {
+	color: #FF0000;
+}
+
+.header-menu {
+	margin-bottom: 30px;
+}
+
+#header.scrolled .logo-wrap {
+	padding-top: 10px;
+	
+}
+
+#header.scrolled .logo{
+	float: left;
+	margin-bottom: 10px;
+}
+
+#header.scrolled .logo img {
+	width:100px;
+}
+
+#header.scrolled .header-menu {
+	line-height: 100px;
+	margin-bottom: 0;
+}
+
+.anchor {
+	position: absolute;
+	width: 100%;
+	height: 0;
+	top: -120px;
+}
+
+.ham-wrap {
+	display: none;
+}
+	
+
+/* # ABOUT SECTION
+=========================================== */
+#about-anchor.anchor {
+	top: -280px;
+}
+
+.slider-slice .item {
+	height: 700px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.fixed-text {
+	position: relative;
+}
+
+.fixed-text .owl-controls {
+	position: absolute;
+	width: 100%;
+	bottom: 20px;
+}
+
+.fixed-text .caption {
+	color: #FFF;
+	z-index: 1;
+	width: 700px;
+	margin: auto;
+	top: 10%;
+	left: 50%;
+	margin-left: -350px;
+	background: rgba(0,0,0,0.7);
+	padding: 30px;
+	border-radius: 2px;
+	
+}
+
+.fixed-text .caption h1 span {
+	font-weight: 300;
+	font-size: 45px;
+	margin-bottom: 0px;
+	display: inline-block;
+}
+
+.fixed-text .caption h1 {
+	margin-bottom: 30px;
+}
+
+/* # RATES SECTION
+=========================================== */
+#rates-section {
+	position: relative; 
+	overflow: hidden; 
+	height: auto;
+	background: url('img/rates-bg.png') no-repeat center center;
+	background-size: cover;
+}
+
+.red-block {
+	width: 100%;
+	height: 60px;
+	background: #FF0000;
+}
+
+.rate-img {
+	z-index:-1; 
+	opacity: 0.4;
+}
+
+.rate-content {
+	padding: 60px 0 40px 0; 
+	color: #fff; 
+	z-index:2;
+}
+
+p.rate-disclaimer {
+	background: #000; 
+	padding: 10px 0; 
+	margin: 40px 0 40px 0;
+}
+
+span.rate {
+	font: 300 64px/54px 'Oswald',sans-serif;
+	letter-spacing: 1px;
+}
+
+/* # PHOTOS SECTION
+=========================================== */
+#photos-section hr {
+	border-top-width: 10px;
+}
+
+#photos-section h3 {
+	margin-top: 20px; 
+	margin-bottom: 40px;
+}
+
+.page-template-default.mfp-zoom-out-cur, 
+.page-template-default.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+	cursor: auto;
+}
+
+/* # EQUIPMENT SECTION
+=========================================== */
+#equipment-section h3 {
+	padding-top: 60px; 
+	padding-bottom: 30px;
+}
+
+p.equip-disclaim {
+	padding-bottom: 60px; 
+	margin-top: 20px;
+}
+/* # PROJECTS SECTION
+=========================================== */
+.projects-title {
+	padding: 60px 0;
+}
+
+.projects-title h2 {
+	margin: 0; 
+	padding: 10px;
+}
+
+.relative.video {
+	width: 100%; 
+	overflow: hidden; 
+	text-align: center; 
+	margin-bottom: 60px;
+}
+
+.vid-title {
+	top: 30px; left: 30px;
+}
+
+.vid-title p {
+	display: inline; 
+	background: #f70303; 
+	padding: 10px; 
+	font-family: 'Oswald',sans-serif; 
+	text-transform: uppercase; 
+	color: #000;
+}
+
+#projects-section iframe {
+	margin: 0 auto 60px auto;
+}
+/* # CONTACT SECTION
+=========================================== */
+
+#contact-section hr {
+	border-top-width: 10px; 
+	margin: 0;
+}
+
+#contact-section h3 {
+	padding-top: 60px; 
+	padding-bottom: 30px;
+}
+/* #. FOOTER
+==================================================== */
+#footer {
+	padding-bottom: 30px;
+}
+
+#footer .logo {
+	display: block;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	opacity: 0.8;
+}
+
+#footer .logo:hover,
+#footer .logo:active {
+	opacity: 1;
+}
+
+#footer .footer-text {
+	text-align: center;
+	color: #000;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+#footer p.privacy {
+	font-size: 14px;
+	color: #BCBEC0;
+	text-align: center;
+}
+
+#footer p.privacy a,
+#footer p.privacy a:visited {
+	color: #FF0000;
+}
+
+#footer p.privacy a:hover,
+#footer p.privacy a:active {
+	text-decoration: underline;
+}
+
+

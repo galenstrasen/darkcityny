@@ -1,0 +1,1334 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Soundboard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-19 09:49+0100\n"
+"PO-Revision-Date: 2012-10-19 09:49+0100\n"
+"Last-Translator: Gerda <ggerda@hotmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:13
+msgid "404 ERROR - Not Found"
+msgstr ""
+
+#: 404.php:14
+msgid "The page you requested does not exist."
+msgstr ""
+
+#: archive.php:14
+msgid "Category:"
+msgstr ""
+
+#: archive.php:17
+msgid "All posts on"
+msgstr ""
+
+#: archive.php:20
+#: archive.php:23
+msgid "All posts in"
+msgstr ""
+
+#: archive.php:26
+msgid "Author:"
+msgstr ""
+
+#: archive.php:29
+msgid "Blog Archives"
+msgstr ""
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:14
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:14
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:14
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:40
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: comments.php:50
+#, php-format
+msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
+msgstr ""
+
+#: comments.php:50
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:56
+msgid "Name"
+msgstr ""
+
+#: comments.php:61
+msgid "Email"
+msgstr ""
+
+#: comments.php:61
+msgid "(will not be published)"
+msgstr ""
+
+#: comments.php:71
+msgid "Submit"
+msgstr ""
+
+#: comments.php:72
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:87
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:133
+msgid "All Rights Reserved."
+msgstr ""
+
+#: functions.php:18
+msgid "sidebar on homepage, left"
+msgstr ""
+
+#: functions.php:27
+msgid "sidebar on homepage, right"
+msgstr ""
+
+#: functions.php:36
+msgid "main sidebar"
+msgstr ""
+
+#: functions.php:45
+msgid "sidebar on tour dates page"
+msgstr ""
+
+#: functions.php:54
+msgid "sidebar on contact page"
+msgstr ""
+
+#: functions.php:63
+msgid "first sidebar in footer"
+msgstr ""
+
+#: functions.php:72
+msgid "second sidebar in footer"
+msgstr ""
+
+#: functions.php:81
+msgid "third sidebar in footer"
+msgstr ""
+
+#: functions.php:90
+msgid "fourth sidebar in footer"
+msgstr ""
+
+#: functions.php:104
+msgid "SOUNDBOARD Main Menu"
+msgstr ""
+
+#: header.php:81
+msgid "LOG OUT"
+msgstr ""
+
+#: header.php:84
+msgid "LOG IN"
+msgstr ""
+
+#: login.php:9
+msgid "Username"
+msgstr ""
+
+#: login.php:10
+msgid "Password"
+msgstr ""
+
+#: login.php:11
+msgid "Remember Me"
+msgstr ""
+
+#: login.php:12
+msgid "Log In"
+msgstr ""
+
+#: loop.php:20
+msgid "posted by:"
+msgstr ""
+
+#: loop.php:27
+msgid "tags:"
+msgstr ""
+
+#: loop.php:34
+msgid "comments:"
+msgstr ""
+
+#: loop.php:41
+#: single-audio.php:74
+msgid "share:"
+msgstr ""
+
+#: loop.php:84
+msgid "Permanent link to"
+msgstr ""
+
+#: loop.php:109
+#: page.php:23
+#: single-audio.php:307
+#: single-gallery.php:42
+#: single-video.php:24
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: search.php:7
+msgid "Search Results for:"
+msgstr ""
+
+#: searchform.php:5
+msgid "Search here ..."
+msgstr ""
+
+#: searchform.php:6
+msgid "Go"
+msgstr ""
+
+#: single-audio.php:42
+msgid "get it here:"
+msgstr ""
+
+#: single-audio.php:46
+msgid "AMAZON"
+msgstr ""
+
+#: single-audio.php:52
+msgid "iTUNES"
+msgstr ""
+
+#: single-audio.php:68
+msgid "release date:"
+msgstr ""
+
+#: template-contact.php:68
+msgid "Thanks, your email was sent successfully."
+msgstr ""
+
+#: template-contact.php:73
+msgid "Uh oh... an error occured."
+msgstr ""
+
+#: template-contact.php:83
+msgid "&larr; Please enter your name."
+msgstr ""
+
+#: template-contact.php:91
+msgid "&larr; Please enter a valid email address."
+msgstr ""
+
+#: template-contact.php:97
+msgid "Message"
+msgstr ""
+
+#: template-contact.php:99
+msgid "&larr; Please enter a message."
+msgstr ""
+
+#: template-home.php:58
+msgid "comments"
+msgstr ""
+
+#: template-tourdates.php:18
+msgid "Upcoming Dates"
+msgstr ""
+
+#: template-tourdates.php:58
+#: template-tourdates.php:190
+msgid "Mon"
+msgstr ""
+
+#: template-tourdates.php:59
+#: template-tourdates.php:191
+msgid "Tue"
+msgstr ""
+
+#: template-tourdates.php:60
+#: template-tourdates.php:192
+msgid "Wed"
+msgstr ""
+
+#: template-tourdates.php:61
+#: template-tourdates.php:193
+msgid "Thu"
+msgstr ""
+
+#: template-tourdates.php:62
+#: template-tourdates.php:194
+msgid "Fri"
+msgstr ""
+
+#: template-tourdates.php:63
+#: template-tourdates.php:195
+msgid "Sat"
+msgstr ""
+
+#: template-tourdates.php:64
+#: template-tourdates.php:196
+msgid "Sun"
+msgstr ""
+
+#: template-tourdates.php:70
+#: template-tourdates.php:202
+msgid "Jan"
+msgstr ""
+
+#: template-tourdates.php:71
+#: template-tourdates.php:203
+msgid "Feb"
+msgstr ""
+
+#: template-tourdates.php:72
+#: template-tourdates.php:204
+msgid "Mar"
+msgstr ""
+
+#: template-tourdates.php:73
+#: template-tourdates.php:205
+msgid "Apr"
+msgstr ""
+
+#: template-tourdates.php:74
+#: template-tourdates.php:206
+msgid "May"
+msgstr ""
+
+#: template-tourdates.php:75
+#: template-tourdates.php:207
+msgid "Jun"
+msgstr ""
+
+#: template-tourdates.php:76
+#: template-tourdates.php:208
+msgid "Jul"
+msgstr ""
+
+#: template-tourdates.php:77
+#: template-tourdates.php:209
+msgid "Aug"
+msgstr ""
+
+#: template-tourdates.php:78
+#: template-tourdates.php:210
+msgid "Sep"
+msgstr ""
+
+#: template-tourdates.php:79
+#: template-tourdates.php:211
+msgid "Oct"
+msgstr ""
+
+#: template-tourdates.php:80
+#: template-tourdates.php:212
+msgid "Nov"
+msgstr ""
+
+#: template-tourdates.php:81
+#: template-tourdates.php:213
+msgid "Dec"
+msgstr ""
+
+#: template-tourdates.php:101
+msgid "Cancelled!"
+msgstr ""
+
+#: template-tourdates.php:107
+msgid "Sold Out"
+msgstr ""
+
+#: template-tourdates.php:115
+msgid "Buy Tickets"
+msgstr ""
+
+#: template-tourdates.php:134
+#: template-tourdates.php:246
+msgid "There are no dates yet."
+msgstr ""
+
+#: template-tourdates.php:151
+msgid "Past Dates"
+msgstr ""
+
+#: includes/admin/options-framework.php:263
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/options-framework.php:297
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: includes/admin/options-framework.php:337
+msgid "Default options restored."
+msgstr ""
+
+#: includes/admin/options-framework.php:384
+msgid "Options saved."
+msgstr ""
+
+#: includes/admin/options-framework.php:432
+msgid "Soundboard Options"
+msgstr ""
+
+#: includes/admin/options-medialibrary-uploader.php:127
+msgid "Upload"
+msgstr ""
+
+#: includes/admin/options-medialibrary-uploader.php:150
+msgid "View File"
+msgstr ""
+
+#: includes/admin/options.php:43
+msgid "light"
+msgstr ""
+
+#: includes/admin/options.php:43
+msgid "dark"
+msgstr ""
+
+#: includes/admin/options.php:88
+msgid "GENERAL"
+msgstr ""
+
+#: includes/admin/options.php:92
+msgid "Configure the general setup of your theme. Upload a logo and insert a google tracking code."
+msgstr ""
+
+#: includes/admin/options.php:96
+msgid "Activate JW Player"
+msgstr ""
+
+#: includes/admin/options.php:97
+msgid "Check this box after you have downloaded the JW Player files and placed them in the jwplayer folder."
+msgstr ""
+
+#: includes/admin/options.php:102
+msgid "Logo"
+msgstr ""
+
+#: includes/admin/options.php:103
+msgid "Upload your Logo"
+msgstr ""
+
+#: includes/admin/options.php:107
+msgid "Center your Logo"
+msgstr ""
+
+#: includes/admin/options.php:108
+msgid "If you would like to center your logo, enter your logo's width here. If your logo has a width of 200px, enter: 200."
+msgstr ""
+
+#: includes/admin/options.php:112
+msgid "Logo for Login page"
+msgstr ""
+
+#: includes/admin/options.php:113
+msgid "Upload a logo to replace the Wordpress logo on the login page"
+msgstr ""
+
+#: includes/admin/options.php:117
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/admin/options.php:118
+msgid "Want to add any custom CSS code? Put it in here, and the rest is taken care of. This overrides any other stylesheets."
+msgstr ""
+
+#: includes/admin/options.php:123
+msgid "Favicon"
+msgstr ""
+
+#: includes/admin/options.php:124
+msgid "Upload a 16 x 16 favicon"
+msgstr ""
+
+#: includes/admin/options.php:129
+msgid "Custom Gravatar"
+msgstr ""
+
+#: includes/admin/options.php:130
+msgid "Upload a Gravatar"
+msgstr ""
+
+#: includes/admin/options.php:135
+msgid "404 Error"
+msgstr ""
+
+#: includes/admin/options.php:136
+msgid "Add your own text to display on error pages."
+msgstr ""
+
+#: includes/admin/options.php:141
+msgid "Google Analytics Code"
+msgstr ""
+
+#: includes/admin/options.php:142
+msgid "Enter your Google Analytics or other tracking code here. It will be inserted before the closing body tag of your theme."
+msgstr ""
+
+#: includes/admin/options.php:147
+msgid "Show author info in the news info section"
+msgstr ""
+
+#: includes/admin/options.php:148
+msgid "Check this box if your would like to show the name of the author with news posts"
+msgstr ""
+
+#: includes/admin/options.php:153
+msgid "Show tags in the news info section"
+msgstr ""
+
+#: includes/admin/options.php:154
+msgid "Check this box if your would like to display tags with news posts"
+msgstr ""
+
+#: includes/admin/options.php:159
+msgid "Hide Past Tour Dates Section"
+msgstr ""
+
+#: includes/admin/options.php:160
+msgid "Check this box if your would like to hide the Past Tour Dates Section"
+msgstr ""
+
+#: includes/admin/options.php:165
+msgid "Hide entire Login Section in header"
+msgstr ""
+
+#: includes/admin/options.php:166
+msgid "Check this box if your would like to hide the entire Login Section in the header"
+msgstr ""
+
+#: includes/admin/options.php:172
+msgid "Remove Comments"
+msgstr ""
+
+#: includes/admin/options.php:174
+msgid "Remove all comment sections from the entire website"
+msgstr ""
+
+#: includes/admin/options.php:179
+msgid "On Album page, display SoundCloud and JW Player within content instead of within a lightbox."
+msgstr ""
+
+#: includes/admin/options.php:180
+msgid "Check this box if your would like to display the SoundCloud and JW Player right on the page instead of just a play icon."
+msgstr ""
+
+#: includes/admin/options.php:189
+msgid "STYLE"
+msgstr ""
+
+#: includes/admin/options.php:193
+msgid "Choose between light and dark skin and set a background image or color."
+msgstr ""
+
+#: includes/admin/options.php:196
+msgid "Theme Skin"
+msgstr ""
+
+#: includes/admin/options.php:197
+msgid "Choose light or dark skin"
+msgstr ""
+
+#: includes/admin/options.php:203
+msgid "Background Image"
+msgstr ""
+
+#: includes/admin/options.php:204
+msgid "Upload your own custom background image. Make sure no background color is selected below, as it would have priority over the background image settings and no image would get displayed"
+msgstr ""
+
+#: includes/admin/options.php:208
+msgid "Background Position"
+msgstr ""
+
+#: includes/admin/options.php:209
+msgid "Choose background image positioning"
+msgstr ""
+
+#: includes/admin/options.php:214
+msgid "Repeat Background"
+msgstr ""
+
+#: includes/admin/options.php:215
+msgid "Stretched Background  /  Fixed Position"
+msgstr ""
+
+#: includes/admin/options.php:216
+msgid "No Repeat  /  Position: Top Center"
+msgstr ""
+
+#: includes/admin/options.php:220
+msgid "Background Color"
+msgstr ""
+
+#: includes/admin/options.php:221
+msgid "Choose a simple color instead of a background image. This will override all background image settings above."
+msgstr ""
+
+#: includes/admin/options.php:226
+msgid "Add box shadow to Menu, Slider and Main Content"
+msgstr ""
+
+#: includes/admin/options.php:236
+msgid "HOME"
+msgstr ""
+
+#: includes/admin/options.php:240
+msgid "Setup the  homepage."
+msgstr ""
+
+#: includes/admin/options.php:243
+msgid "Title in center section on Homepage"
+msgstr ""
+
+#: includes/admin/options.php:244
+msgid "Enter the Title for the center section on the homepage. If you are displaying text instead of (or additionally to) the News feed, this headline will appear above it."
+msgstr ""
+
+#: includes/admin/options.php:249
+msgid "News Title on Homepage"
+msgstr ""
+
+#: includes/admin/options.php:250
+msgid "Enter the Title for the News section on the homepage"
+msgstr ""
+
+#: includes/admin/options.php:255
+msgid "Number of Headlines"
+msgstr ""
+
+#: includes/admin/options.php:256
+msgid "Enter the number of headlines you would like to show on the homepage"
+msgstr ""
+
+#: includes/admin/options.php:261
+msgid "Preview Image for news"
+msgstr ""
+
+#: includes/admin/options.php:263
+msgid "Display a preview image for the news on the homepage"
+msgstr ""
+
+#: includes/admin/options.php:272
+msgid "TYPOGRAPHY"
+msgstr ""
+
+#: includes/admin/options.php:276
+msgid "Select your favorite font or upload one of hundreds of Google Web fonts. This applies to Headings, Button Text and the Navigation."
+msgstr ""
+
+#: includes/admin/options.php:279
+msgid "Predefined Fonts"
+msgstr ""
+
+#: includes/admin/options.php:280
+msgid "Choose a font for your Headings, Buttons and Menu"
+msgstr ""
+
+#: includes/admin/options.php:286
+msgid "Custom Google Web Font"
+msgstr ""
+
+#: includes/admin/options.php:287
+msgid "Simply enter the name of the Google font here. The rest is taken care of."
+msgstr ""
+
+#: includes/admin/options.php:292
+msgid "Text Transform"
+msgstr ""
+
+#: includes/admin/options.php:293
+msgid "Some Headings and the Button text are UPPERCASE letters by default. However, some fonts simply dont look right with just uppercase letters. Here you can set the text transform to NONE"
+msgstr ""
+
+#: includes/admin/options.php:305
+msgid "COLOR"
+msgstr ""
+
+#: includes/admin/options.php:309
+msgid "Set the theme color."
+msgstr ""
+
+#: includes/admin/options.php:313
+msgid "Predefined Theme Color"
+msgstr ""
+
+#: includes/admin/options.php:314
+msgid "Choose a color for links and buttons"
+msgstr ""
+
+#: includes/admin/options.php:337
+msgid "Custom Theme Color"
+msgstr ""
+
+#: includes/admin/options.php:338
+msgid "If you prefer a different color than the ones above,  you can select a custom color for your links and buttons here. This field has priority over the Predefined Primary Color."
+msgstr ""
+
+#: includes/admin/options.php:348
+msgid "SLIDER"
+msgstr ""
+
+#: includes/admin/options.php:352
+msgid "Set up your slider"
+msgstr ""
+
+#: includes/admin/options.php:356
+msgid "Show Slider on Homepage"
+msgstr ""
+
+#: includes/admin/options.php:362
+msgid "Select a Slider"
+msgstr ""
+
+#: includes/admin/options.php:363
+msgid "After you have created a slider, you can select it here."
+msgstr ""
+
+#: includes/admin/options.php:373
+msgid "SOCIAL"
+msgstr ""
+
+#: includes/admin/options.php:377
+msgid "Enter your info for your social network accounts to display them in the footer."
+msgstr ""
+
+#: includes/admin/options.php:381
+msgid "Enter the full URL to your iTunes page"
+msgstr ""
+
+#: includes/admin/options.php:387
+msgid "Enter the full URL to your Last FM profile"
+msgstr ""
+
+#: includes/admin/options.php:393
+msgid "Enter the full URL to your Soundcloud profile"
+msgstr ""
+
+#: includes/admin/options.php:399
+msgid "Enter the full URL to your Twitter profile"
+msgstr ""
+
+#: includes/admin/options.php:405
+msgid "Enter the full URL to your Facebook profile"
+msgstr ""
+
+#: includes/admin/options.php:411
+msgid "Enter the full URL to your YouTube profile"
+msgstr ""
+
+#: includes/admin/options.php:417
+msgid "Enter the full URL to your beatport profile"
+msgstr ""
+
+#: includes/admin/options.php:423
+msgid "Enter the full URL to your social icon 1.  Height must be 32px. Color: white (#ffffff)."
+msgstr ""
+
+#: includes/admin/options.php:429
+#: includes/admin/options.php:447
+#: includes/admin/options.php:465
+#: includes/admin/options.php:483
+#: includes/admin/options.php:501
+msgid "If your icon has a width of 50px, enter: 50"
+msgstr ""
+
+#: includes/admin/options.php:435
+msgid "Enter the full URL to your social profile 1."
+msgstr ""
+
+#: includes/admin/options.php:441
+msgid "Enter the full URL to your social icon 2.  Height must be 32px. Color: white (#ffffff)."
+msgstr ""
+
+#: includes/admin/options.php:453
+msgid "Enter the full URL to your social profile 2"
+msgstr ""
+
+#: includes/admin/options.php:459
+msgid "Enter the full URL to your social icon 3.  Height must be 32px. Color: white (#ffffff)."
+msgstr ""
+
+#: includes/admin/options.php:471
+msgid "Enter the full URL to your social profile 3"
+msgstr ""
+
+#: includes/admin/options.php:477
+msgid "Enter the full URL to your social icon 4.  Height must be 32px. Color: white (#ffffff)."
+msgstr ""
+
+#: includes/admin/options.php:489
+msgid "Enter the full URL to your social profile 4"
+msgstr ""
+
+#: includes/admin/options.php:495
+msgid "Enter the full URL to your social icon 5.  Height must be 32px. Color: white (#ffffff)."
+msgstr ""
+
+#: includes/admin/options.php:507
+msgid "Enter the full URL to your social profile 5"
+msgstr ""
+
+#: includes/admin/options.php:516
+msgid "CONTACT"
+msgstr ""
+
+#: includes/admin/options.php:520
+msgid "Enter the settings for your Contact Form."
+msgstr ""
+
+#: includes/admin/options.php:524
+msgid "Email Address"
+msgstr ""
+
+#: includes/admin/options.php:525
+msgid "Enter the email address where the email from the contact form should be sent to."
+msgstr ""
+
+#: includes/admin/options.php:530
+msgid "Subject"
+msgstr ""
+
+#: includes/admin/options.php:531
+msgid "Enter the subject for messages that are sent via the contact form."
+msgstr ""
+
+#: includes/functions/theme_functions.php:57
+#: includes/functions/theme_functions.php:62
+msgid "ago"
+msgstr ""
+
+#: includes/functions/theme_functions.php:99
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:187
+msgid "TOUR DATES"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:191
+msgid "Date"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:199
+msgid "City / Country"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:206
+msgid "Venue"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:213
+msgid "Ticket URL"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:214
+msgid "Enter the full URL to the ticket sales website"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:220
+msgid "Ticket URL Button Text"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:221
+msgid "Enter Button Text"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:227
+msgid "Sold Out?"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:230
+msgid "Check if show is sold out."
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:234
+msgid "Cancelled?"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:237
+msgid "Check if show is cancelled."
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:247
+msgid "GALLERY"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:252
+msgid "Upload your images. </br></br> Drag and drop images to reorder them."
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:264
+msgid "SONGTITLES"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:268
+msgid "Add the Album's songtitles"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:278
+msgid "SOUNDCLOUD PLAYER"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:282
+msgid "Paste Embed Code"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:294
+msgid "AUDIO PLAYER (requires JW Player)"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:298
+msgid "Display Audio Player?"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:301
+msgid "Check if you would like to display an Audio Player"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:305
+msgid "Upload music files. They will start uploading once you hit the <b>Publish / Update</b> button above. If you upload many songtitles at once, this might take a while."
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:315
+msgid "BUY / DOWNLOAD LINKS"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:319
+msgid "Amazon"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:320
+msgid "Enter the full URL to the album on Amazon"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:326
+msgid "iTunes"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:327
+msgid "Enter the full URL to the album on iTunes"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:333
+msgid "Other buying / downloading link"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:334
+msgid "Enter the full URL to the album"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:340
+msgid "Button Text for other buying / downloading link"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:352
+msgid "ALBUM INFO"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:356
+msgid "Release Date"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:364
+msgid "Additional Info LEFT column"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:365
+msgid "Enter any additional info about the Album. It will be displayed in the left column. You can use HTML too."
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:371
+msgid "Additional Info CENTER column"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:372
+msgid "Enter any additional info about the Album. It will be displayed in the center column. You can use HTML too."
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:378
+msgid "Additional Info RIGHT column"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:379
+msgid "Enter any additional info (Lyrics, etc...) about the Album. It will be displayed in the right column. You can use HTML too."
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:392
+msgid "YOUTUBE OR VIMEO VIDEO"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:396
+msgid "Enter the link to a YouTube or Vimeo video"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:397
+msgid "It should look like this: http://vimeo.com/31956969 or http://youtu.be/nVssYUGs-R4"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:406
+msgid "SELF-HOSTED VIDEO (requires JW Player)"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:410
+msgid "Enter full URL to the video"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:429
+msgid ""
+"Image must be 940x360px. </br></br>\n"
+"                                        Drag and drop images to reorder them. </br></br>\n"
+"                                        To enter an URL where the image should link to, click <b>Edit</b> and enter the full URL under <b>SLIDER Image Links To</b>. </br></br>\n"
+"                                        To display a caption over the slider image,click <b>Edit</b> and enter the text under <b>SLIDER Caption</b>."
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:447
+msgid "SLIDER Image Links To"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:450
+msgid "Enter full URL. To be used with SLIDER images only."
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:454
+msgid "SLIDER Caption"
+msgstr ""
+
+#: includes/metaboxes/config-meta-boxes.php:457
+msgid "Slider Caption. To be used with SLIDER images only. Use &#60;/br> for line breaks"
+msgstr ""
+
+#: includes/metaboxes/inc/classes/meta-box.php:264
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: includes/metaboxes/inc/classes/meta-box.php:334
+msgid "+"
+msgstr ""
+
+#: includes/metaboxes/inc/classes/meta-box.php:358
+msgid "&#8211;"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/file.php:64
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: includes/metaboxes/inc/fields/image.php:62
+msgid "Order saved"
+msgstr ""
+
+#: includes/posttypes/audio.php:9
+msgid "Audio"
+msgstr ""
+
+#: includes/posttypes/audio.php:10
+msgid "Album"
+msgstr ""
+
+#: includes/posttypes/audio.php:11
+msgid "Add Album"
+msgstr ""
+
+#: includes/posttypes/audio.php:12
+msgid "Add New Album"
+msgstr ""
+
+#: includes/posttypes/audio.php:13
+msgid "Edit Album"
+msgstr ""
+
+#: includes/posttypes/audio.php:14
+msgid "New Album"
+msgstr ""
+
+#: includes/posttypes/audio.php:15
+#: includes/posttypes/gallery.php:15
+#: includes/posttypes/slider.php:15
+msgid "View Details"
+msgstr ""
+
+#: includes/posttypes/audio.php:16
+msgid "Search Audio"
+msgstr ""
+
+#: includes/posttypes/audio.php:17
+msgid "No Audio was found with that criteria"
+msgstr ""
+
+#: includes/posttypes/audio.php:18
+msgid "No Audio found in the Trash with that criteria"
+msgstr ""
+
+#: includes/posttypes/audio.php:19
+msgid "View Album"
+msgstr ""
+
+#: includes/posttypes/gallery.php:9
+msgid "Galleries"
+msgstr ""
+
+#: includes/posttypes/gallery.php:10
+msgid "Gallery"
+msgstr ""
+
+#: includes/posttypes/gallery.php:11
+msgid "Add Gallery"
+msgstr ""
+
+#: includes/posttypes/gallery.php:12
+msgid "Add New Gallery"
+msgstr ""
+
+#: includes/posttypes/gallery.php:13
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/posttypes/gallery.php:14
+msgid "New Gallery"
+msgstr ""
+
+#: includes/posttypes/gallery.php:16
+msgid "Search Galleries"
+msgstr ""
+
+#: includes/posttypes/gallery.php:17
+msgid "No Gallery were found with that criteria"
+msgstr ""
+
+#: includes/posttypes/gallery.php:18
+msgid "No Gallery found in the Trash with that criteria"
+msgstr ""
+
+#: includes/posttypes/gallery.php:19
+msgid "View Gallery"
+msgstr ""
+
+#: includes/posttypes/slider.php:9
+#: includes/posttypes/slider.php:10
+msgid "Slider"
+msgstr ""
+
+#: includes/posttypes/slider.php:11
+msgid "Add Slider"
+msgstr ""
+
+#: includes/posttypes/slider.php:12
+msgid "Add New Slider"
+msgstr ""
+
+#: includes/posttypes/slider.php:13
+msgid "Edit Slider"
+msgstr ""
+
+#: includes/posttypes/slider.php:14
+msgid "New Slider"
+msgstr ""
+
+#: includes/posttypes/slider.php:16
+msgid "Search Slider"
+msgstr ""
+
+#: includes/posttypes/slider.php:17
+msgid "No Slider was found with that criteria"
+msgstr ""
+
+#: includes/posttypes/slider.php:18
+msgid "No Slider was found in the Trash with that criteria"
+msgstr ""
+
+#: includes/posttypes/slider.php:19
+msgid "View Slider"
+msgstr ""
+
+#: includes/posttypes/tourdates.php:9
+msgid "Tour Dates"
+msgstr ""
+
+#: includes/posttypes/tourdates.php:11
+msgid "Add Date"
+msgstr ""
+
+#: includes/posttypes/tourdates.php:12
+msgid "Add New Date"
+msgstr ""
+
+#: includes/posttypes/tourdates.php:13
+msgid "Edit Date"
+msgstr ""
+
+#: includes/posttypes/tourdates.php:14
+msgid "New Date"
+msgstr ""
+
+#: includes/posttypes/tourdates.php:16
+msgid "Search Tourdates"
+msgstr ""
+
+#: includes/posttypes/tourdates.php:17
+msgid "No Dates were found with that criteria"
+msgstr ""
+
+#: includes/posttypes/tourdates.php:18
+msgid "No Date found in the Trash with that criteria"
+msgstr ""
+
+#: includes/posttypes/tourdates.php:19
+msgid "View Date"
+msgstr ""
+
+#: includes/posttypes/video.php:9
+msgid "Videos"
+msgstr ""
+
+#: includes/posttypes/video.php:10
+msgid "Video"
+msgstr ""
+
+#: includes/posttypes/video.php:11
+msgid "Add Video"
+msgstr ""
+
+#: includes/posttypes/video.php:12
+msgid "Add New Video"
+msgstr ""
+
+#: includes/posttypes/video.php:13
+msgid "Edit Video"
+msgstr ""
+
+#: includes/posttypes/video.php:14
+msgid "New Video"
+msgstr ""
+
+#: includes/posttypes/video.php:16
+msgid "Search Video"
+msgstr ""
+
+#: includes/posttypes/video.php:17
+msgid "No Video was found with that criteria"
+msgstr ""
+
+#: includes/posttypes/video.php:18
+msgid "No Video found in the Trash with that criteria"
+msgstr ""
+
+#: includes/posttypes/video.php:19
+msgid "View Video"
+msgstr ""
+
+#: includes/shortcodes/shortcode-soundcloud.php:233
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/shortcodes/shortcode-soundcloud.php:322
+msgid "Save Changes"
+msgstr ""
+
+#: includes/widgets/widget-album.php:22
+msgid "Display your latest Album"
+msgstr ""
+
+#: includes/widgets/widget-album.php:25
+msgid "SOUNDBOARD - Album"
+msgstr ""
+
+#: includes/widgets/widget-album.php:156
+#: includes/widgets/widget-flickr.php:105
+#: includes/widgets/widget-gallery.php:131
+#: includes/widgets/widget-news.php:123
+#: includes/widgets/widget-tourdates.php:199
+#: includes/widgets/widget-twitter.php:110
+#: includes/widgets/widget-video.php:286
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/widget-flickr.php:22
+msgid "Display images from a Flickr account."
+msgstr ""
+
+#: includes/widgets/widget-flickr.php:25
+msgid "SOUNDBOARD - Flickr"
+msgstr ""
+
+#: includes/widgets/widget-gallery.php:22
+msgid "Display images from your Gallery"
+msgstr ""
+
+#: includes/widgets/widget-gallery.php:25
+msgid "SOUNDBOARD - Gallery"
+msgstr ""
+
+#: includes/widgets/widget-gallery.php:136
+#: includes/widgets/widget-news.php:128
+msgid "Posts Number:"
+msgstr ""
+
+#: includes/widgets/widget-news.php:22
+msgid "Display your latest News Entries."
+msgstr ""
+
+#: includes/widgets/widget-news.php:25
+msgid "SOUNDBOARD - News"
+msgstr ""
+
+#: includes/widgets/widget-tourdates.php:22
+msgid "Display upcoming  tour dates"
+msgstr ""
+
+#: includes/widgets/widget-tourdates.php:25
+msgid "SOUNDBOARD - Tour Dates"
+msgstr ""
+
+#: includes/widgets/widget-tourdates.php:204
+msgid "Number of Dates:"
+msgstr ""
+
+#: includes/widgets/widget-twitter.php:22
+msgid "Display your latest Tweets"
+msgstr ""
+
+#: includes/widgets/widget-twitter.php:25
+msgid "SOUNDBOARD - Twitter"
+msgstr ""
+
+#: includes/widgets/widget-twitter.php:115
+msgid "Twitter Username"
+msgstr ""
+
+#: includes/widgets/widget-twitter.php:120
+msgid "Number of tweets"
+msgstr ""
+
+#: includes/widgets/widget-video.php:22
+msgid "Display your latest videos"
+msgstr ""
+
+#: includes/widgets/widget-video.php:25
+msgid "SOUNDBOARD - Video"
+msgstr ""
+
+#: includes/widgets/widget-video.php:291
+msgid "Number of Videos:"
+msgstr ""
+

@@ -1,0 +1,149 @@
+@media screen and (max-width: 600px) {
+	
+h5, .h5 {
+	font-size: 16px;
+}
+
+h4, .h4 {
+	font-size: 18px;
+}
+
+h3, .h3 {
+	font-size: 24px;
+}
+
+h2, .h2 {
+	font-size: 28px;
+}
+
+h1, .h1 {
+	font-size: 32px;
+	
+}
+
+	
+.menu-main-menu-wrapper{
+	clear:both;
+	height: 0;
+	overflow: hidden;
+}
+
+.menu-main-menu-wrapper.is-open {
+	height: 260px;
+	margin-bottom: 20px;
+}
+.header-menu {
+	
+}
+.header-menu li {
+	display: block;
+	line-height: 40px;
+}
+
+.ham-wrap {
+	width: 90px;
+	float:right;
+	height: 90px;
+	
+	position: relative;
+	cursor: pointer;
+	display: block;
+}
+
+.hamburg {
+	width: 30px;
+	height: 20px;
+	float: left;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -10px;
+	margin-left: -15px;
+}
+	
+.hamburg .bar {
+	width: 100%;
+	position: absolute;
+	display: block;
+	height: 4px;
+	left: 0;
+	background: #FFF;
+	border-radius: 2px;
+	transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+}
+	
+.hamburg .top-bar {
+	top: 0; 
+}
+	
+.hamburg .middle-bar {
+	top: 50%;
+	transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transition: all .3s ease .1s;
+	-o-transition: all .3s ease .1s;
+	-moz-transition: all .3s ease .1s;
+	-webkit-transition: all .3s ease .1s;
+}
+	
+.hamburg .bottom-bar {
+	bottom: 0;
+}
+	
+.menu-main-nav-container select {
+	display: none;
+}
+
+
+
+	
+.ham-wrap-open .hamburg .top-bar {
+	top: 8px;
+	transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+	
+.ham-wrap-open .hamburg .middle-bar {
+	opacity: 0;
+	width: 0%;
+}
+	
+.ham-wrap-open .hamburg .bottom-bar {
+	top: 8px;
+	transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+#about-slider{ display: none;}
+.fixed-text .caption h1 {
+	margin-bottom: 10px;
+	line-height: 36px;
+}
+
+.fixed-text .caption h1 span {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+.fixed-text .caption.absolute {
+	top: 5%;
+	padding: 15px;
+	position: static;
+	width: auto;
+	margin-left: 0;
+}
+
+
+	
+}

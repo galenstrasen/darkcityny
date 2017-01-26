@@ -1,0 +1,43 @@
+@media (max-width: 767px) {
+
+body {
+	padding-top: 120px;
+}
+#header .logo-wrap {
+	padding-top: 10px;
+	
+}
+
+#header .logo{
+	float: left;
+	margin-bottom: 10px;
+}
+
+#header .logo img {
+	width:100px;
+}
+
+#header .header-menu {
+	line-height: 100px;
+	margin-bottom: 0;
+}
+
+.fixed-text .caption {
+	width: 90%;
+	margin-left: -45%;
+}
+
+.rate-wrap {
+	margin-bottom: 30px;
+}
+
+p.rate-disclaimer {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#contact-section {
+	padding-right: 30px;
+}
+
+}
