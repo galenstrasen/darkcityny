@@ -15,6 +15,7 @@
 	<div class="caption absolute tac about-caption">
 		<h1><span>Welcome to</span><br/> Dark City Studios</h1>
 		<?php the_content(); ?>
+		<a href="https://player.vimeo.com/video/200669098" id="js-perma-pop" class="popup-video btn btn-red press-play"><strong>WATCH:</strong> Inside Dark City Studios</a>
 	</div><!-- /caption -->
 
 </div><!-- #social-content -->
