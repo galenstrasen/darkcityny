@@ -1,2 +1,0 @@
-[02-Jan-2015 01:53:27 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/andymassdcny/public_html/wp-content/themes/darkcity/index.php on line 1
-[21-May-2016 14:37:14 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/andymassdcny/public_html/wp-content/themes/darkcity/404.php on line 1
