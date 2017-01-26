@@ -5,7 +5,7 @@ body {
 }
 #header .logo-wrap {
 	padding-top: 10px;
-	
+
 }
 
 #header .logo{
@@ -24,7 +24,7 @@ body {
 
 .fixed-text .caption {
 	width: 90%;
-	margin-left: -45%;
+	/* margin-left: -45%; */
 }
 
 .rate-wrap {

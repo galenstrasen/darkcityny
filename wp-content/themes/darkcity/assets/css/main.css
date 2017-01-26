@@ -533,15 +533,20 @@ a.red:visited {
 .fixed-text .caption {
 	color: #FFF;
 	z-index: 1;
-	width: 700px;
+	width: 60vw;
 	margin: auto;
 	top: 10%;
 	left: 50%;
-	margin-left: -350px;
+	max-width: 900px;
+	transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
 	background: rgba(0,0,0,0.7);
 	padding: 30px;
 	border-radius: 2px;
-	
+
 }
 
 .fixed-text .caption h1 span {
