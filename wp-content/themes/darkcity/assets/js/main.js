@@ -75,7 +75,7 @@ jQuery(document).ready(function($) {
     }
   });
 
-
+  /* @todo - definitely need to add cookie here */
   $(window).load(function() {
     var permaPop = $('#js-perma-pop');
     if (permaPop.length) {
