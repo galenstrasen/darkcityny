@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-<div id="page-wrap">
+<main id="page-wrap" class="page-content">
 
 	<div class="relative">
 		<div class="anchor" id="about-anchor"></div>
@@ -33,7 +33,7 @@
 		<?php get_template_part('partials/contact'); ?>
 	</div><!-- /relative -->
 
-</div><!-- #page-wrap -->
+</main><!-- #page-wrap -->
 
 <?php endwhile; endif; ?>
 <?php get_footer(); ?>
