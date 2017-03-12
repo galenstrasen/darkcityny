@@ -50,6 +50,8 @@ body {
 	font: 16px/24px 'Lato', sans-serif;
 }
 
+
+
 /* 1.1 TYPOGRAPHY
 ======================== */
 
@@ -676,6 +678,29 @@ p.equip-disclaim {
 #contact-section h3 {
 	padding-top: 60px;
 	padding-bottom: 30px;
+}
+
+/* #. PAGE CONTENT
+==================================================== */
+/*
+270 = header height
+54 = footer height
+*/
+
+.page-content.basic {
+	padding: 60px 0;
+	min-height: calc(100vh - 324px);
+}
+
+.page-content.basic .page-title {
+	border-bottom: 10px solid #333;
+	color: #FFFFFF;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.main-content p {
+	color: #EEEEEE;
 }
 /* #. FOOTER
 ==================================================== */
