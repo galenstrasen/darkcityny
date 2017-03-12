@@ -680,7 +680,8 @@ p.equip-disclaim {
 /* #. FOOTER
 ==================================================== */
 #footer {
-	padding-bottom: 30px;
+	padding: 15px 0;
+	background-color: #0D0d0d;
 }
 
 #footer .logo {
@@ -705,8 +706,9 @@ p.equip-disclaim {
 
 #footer p.privacy {
 	font-size: 14px;
-	color: #BCBEC0;
-	text-align: center;
+	margin-bottom: 0;
+	color: #555555;
+	text-align: right;
 }
 
 #footer p.privacy a,
@@ -714,9 +716,45 @@ p.equip-disclaim {
 	color: #FF0000;
 }
 
+#footer p.privacy a.galen,
+#footer p.privacy a.galen:visited {
+	color: #444444;
+}
+
+#footer p.privacy a.galen:hover,
+#footer p.privacy a.galen:active {
+	color: #FF0000;
+}
+
 #footer p.privacy a:hover,
 #footer p.privacy a:active {
 	text-decoration: underline;
 }
+
+#footer .social {
+	/*text-align: right;*/
+}
+
+#footer .social li {
+	display: inline-block;
+}
+
+#footer .social li a {
+	display: block;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+#footer .social li a:hover {
+	background-color: #FF0000;
+}
+
+
+
+
 
 

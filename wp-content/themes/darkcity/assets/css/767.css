@@ -40,4 +40,16 @@ p.rate-disclaimer {
 	padding-right: 30px;
 }
 
+#footer {
+	margin-top: 45px;
+}
+#footer .social {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#footer p.privacy {
+	text-align: center;
+}
+
 }
