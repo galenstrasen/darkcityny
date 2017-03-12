@@ -18,42 +18,39 @@
 
 <body <?php body_class(); ?> >
 <?php get_template_part('partials/analytics'); ?>
-<div id="header" class="navbar-fixed-top">
 
+<header id="header" class="navbar-fixed-top">
 
 	<div class="contact-links tar">
-			<a href="mailto:andy@darkcityny.com" class="email"><i class="fa fa-envelope-o fa-fw"></i> Email Us</a> <span class="phone"><i class="fa fa-phone fa-fw"></i> (646)623.2313</span>
+		<a href="mailto:andy@darkcityny.com" class="email"><i class="fa fa-envelope-o fa-fw"></i> Email Us</a> <span class="phone"><i class="fa fa-phone fa-fw"></i> (646)623.2313</span>
 	</div><!-- /contact-links -->
 
 	<div class="container">
 		<div class="row">
-
-			<div class="col-lg-12">
+			<div class="col-xs-12">
 				<div class="tac logo-wrap">
 
 					<a href="#about-anchor" class="logo"><img src="<?php bloginfo( 'template_url' ); ?>/assets/img/darkcity-logo.png" width="175" alt="Dark City Studios" /></a>
 
 					<div class="ham-wrap">
-					<div class="hamburg">
-					<span class="top-bar bar"></span>
-					<span class="middle-bar bar"></span>
-					<span class="bottom-bar bar"></span>
+						<div class="hamburg">
+							<span class="top-bar bar"></span>
+							<span class="middle-bar bar"></span>
+							<span class="bottom-bar bar"></span>
+						</div>
 					</div>
-				</div>
-
-
-
 
 					<!-- #MAYBE PUT NAV IN OWN COL-12 DIV? -->
 					<?php wp_nav_menu( array( 'theme_location' => 'main-menu','menu_class' => 'header-menu', 'container_class' => 'menu-main-menu-wrapper') ); ?>
-				</div>
+
+				</div><!-- /logo-wrap -->
 
 			</div><!-- /col -->
 
 		</div><!-- /row -->
 
 	</div><!-- /container -->
-</div><!-- #header -->
+</header><!-- #header -->
 
 
 
