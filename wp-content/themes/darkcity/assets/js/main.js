@@ -46,7 +46,7 @@ jQuery(document).ready(function($) {
 
 
   $('#page-wrap').waypoint(function() {
-    	$('#header').toggleClass('scrolled');
+    	$('body').toggleClass('scrolled');
   });
 
   $('a[href*=#]:not([href=#])').click(function() {
