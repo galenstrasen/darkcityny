@@ -702,6 +702,21 @@ p.equip-disclaim {
 .main-content p {
 	color: #EEEEEE;
 }
+
+/* #. MODAL
+==================================================== */
+.mfp-iframe-holder .mfp-content {
+	max-width: 1200px;
+}
+
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+	color: #ff0000;
+}
+
+.mfp-bg {
+	background: #000;
+	opacity: 0.95;
+}
 /* #. FOOTER
 ==================================================== */
 #footer {
