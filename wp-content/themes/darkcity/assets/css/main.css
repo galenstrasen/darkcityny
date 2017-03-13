@@ -691,7 +691,6 @@ p.equip-disclaim {
 */
 
 .page-content.basic {
-	padding: 60px 0;
 	min-height: calc(100vh - 324px);
 }
 
@@ -700,6 +699,10 @@ p.equip-disclaim {
 	color: #FFFFFF;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
+}
+
+.main-content {
+	padding: 60px 0;
 }
 
 .main-content p {
