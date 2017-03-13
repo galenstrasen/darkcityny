@@ -21,8 +21,8 @@ jQuery(document).ready(function($) {
 		mainClass: 'mfp-fade',
 		removalDelay: 160,
 		preloader: false,
-
-		fixedContentPos: false
+		fixedContentPos: true,
+    fixedBgPos: true
 	});
 
 	$('#photo-gallery').magnificPopup({
