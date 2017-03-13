@@ -10,7 +10,7 @@
     // Initialize the functions
     init: function() {
 
-      //SiteApp.MobileDetect();
+      SiteApp.MobileDetect();
       SiteApp.Slider();
       SiteApp.Lightbox();
       SiteApp.Waypoint();
