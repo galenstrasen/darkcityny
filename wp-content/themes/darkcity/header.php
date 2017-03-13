@@ -17,8 +17,9 @@
 </head>
 
 <body <?php body_class(); ?> >
-<?php get_template_part('partials/analytics'); ?>
-
+<?php get_template_part('partials/analytics');
+get_template_part( 'partials/preloader' ); ?>
+<div class="js-sitewrap site-wrap">
 <header id="header" class="navbar-fixed-top">
 
 	<div class="contact-links tar">

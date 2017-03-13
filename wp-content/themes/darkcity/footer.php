@@ -16,7 +16,7 @@
 	</div><!-- /container -->
 
 </footer><!-- #footer -->
-
+</div><!-- /sitewrap -->
 
 
 <?php wp_footer(); ?>

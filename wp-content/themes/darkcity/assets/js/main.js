@@ -11,6 +11,7 @@
     init: function() {
 
       SiteApp.MobileDetect();
+      SiteApp.Preloader();
       SiteApp.Slider();
       SiteApp.Lightbox();
       SiteApp.Waypoint();
