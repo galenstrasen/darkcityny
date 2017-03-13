@@ -1,5 +1,5 @@
 
-<div id="contact-section">
+<div id="contact-section" class="animation" data-animation="animation-fade-in-down">
 	<hr/>
 	<div class="container-fluid no-gutter white">
 		<div class="row">

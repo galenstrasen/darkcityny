@@ -1,10 +1,10 @@
 <div id="equipment-section">
 	<div class="container white">
 
-		<h3 class="tac h1">Equipment</h3>
+		<h3 class="tac h1 animation" data-animation="animation-fade-in-down">Equipment</h3>
 		<div class="row">
 			<div class="col-sm-5 col-sm-offset-1">
-				<ul class="equip-list tac">
+				<ul class="equip-list tac animation" data-animation="animation-fade-in-down">
 					<li>Mac Pro with Pro Tools 11<li>
 					<li>Lynx Aurora 8 converter w/ thunderbolt <li>
 					<li>Seventh Circle Audio preamps :: (4) A12's, (3) N72's, (1) J99<li>
@@ -17,9 +17,9 @@
 					<li>Mesa Boogie 4 x 12" Recto Cab<li>
 				</ul>
 			</div><!-- /col -->
-	
+
 			<div class="col-sm-5">
-				<ul class="equip-list tac">
+				<ul class="equip-list tac animation" data-animation="animation-fade-in-down">
 					<li>Mesa Boogie 2 x 12" Recto Cab</li>
 					<li>Ampeg V1 Guitar Combo</li>
 					<li>Fender '63 Tube Reverb</li>
@@ -31,7 +31,7 @@
 					<li>Various Zildjian K and A series cymbals</li>
 				</ul>
 			</div><!-- /col -->
-			
+
 			<div class="col-sm-10 col-sm-offset-1">
 				<p class="tac equip-disclaim">We have many different microphones to choose from including AKG 414's, Sennheiser 421's, Audix drum mic's, and retro SM-57's from the late 60's! Our studio is treated with Audimute Soundproofing and Pinta-Acoustics.</p>
 			</div><!-- /col -->
