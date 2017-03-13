@@ -11,7 +11,7 @@
 			<div class="col-sm-2 col-xs-3">
 				<div class="image-wrap">
 					<?php $image = get_sub_field('image'); ?>
-					<a href="<?php echo $image['sizes']['large']; ?>"><img src="<?php echo $image['sizes']['med-thumb']; ?>" class="img-responsive"/></a>
+					<a href="<?php echo $image['sizes']['large']; ?>"><img src="<?php echo $image['sizes']['med-thumb']; ?>" alt="<?php echo $image['alt']; ?>" class="img-responsive"/></a>
 				</div>
 			</div>
 			<?php endwhile; ?>
