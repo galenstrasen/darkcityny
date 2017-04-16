@@ -19,6 +19,10 @@
 	</div><!-- /relative -->
 
 	<div class="relative animation" data-animation="animation-fade-in-down">
+		<a href="/westchester-recording-studio/" class="btn btn-red btn-block black-txt">Learn More about Dark City Studios</a>
+	</div>
+
+	<div class="relative animation" data-animation="animation-fade-in-down">
 		<div class="anchor" id="equipment-anchor"></div>
 		<?php get_template_part('partials/equipment'); ?>
 	</div><!-- /relative -->

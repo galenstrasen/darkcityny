@@ -249,6 +249,14 @@ a.red:visited {
 	color: #FFF!important;
 }
 
+.btn-red.black-txt {
+	color: #000!important;
+}
+
+.btn-red.black-txt:hover {
+	color: #FFF!important;
+}
+
 .btn-black:hover,
 .btn-black:active,
 .btn-gray:hover,
