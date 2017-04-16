@@ -30,7 +30,7 @@ get_template_part( 'partials/preloader' ); ?>
 			<div class="col-xs-12">
 				<div class="tac logo-wrap">
 
-					<a href="#about-anchor" class="logo"><img src="<?php bloginfo( 'template_url' ); ?>/assets/img/darkcity-logo.png" width="175" alt="Dark City Studios" /></a>
+					<a href="/" class="logo"><img src="<?php bloginfo( 'template_url' ); ?>/assets/img/darkcity-logo.png" width="175" alt="Dark City Studios" /></a>
 
 					<div class="ham-wrap">
 						<div class="hamburg">
