@@ -4,8 +4,6 @@
 	<meta charset="<?php bloginfo('charset'); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="shortcut icon" href="<?php bloginfo( 'template_url' ); ?>/favicon.ico">
-	<title>Dark City Studios | Westchester Recording Studio - Yonkers, NY</title>
-	<meta name="description" content="Dark City Studios is a music recording studio in Westchester County, New York that offers a unique atmosphere for musicians to expand their minds." />
 	<meta name="google-site-verification" content="4BQoTYC_bqUhsPAAMD-QIfeEk1qWdU3wz7d-hSK3Y8M" />
 
 
