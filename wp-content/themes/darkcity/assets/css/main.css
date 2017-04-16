@@ -771,6 +771,7 @@ p.equip-disclaim {
 
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
 	color: #ff0000;
+	font-size: 4rem;
 }
 
 .mfp-bg {
