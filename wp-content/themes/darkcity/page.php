@@ -30,6 +30,11 @@
   </div><!-- /relative -->
 
   <div class="relative animation" data-animation="animation-fade-in-down">
+    <div class="anchor" id="projects-anchor"></div>
+    <?php get_template_part('partials/projects'); ?>
+  </div><!-- /relative -->
+
+  <div class="relative animation" data-animation="animation-fade-in-down">
     <div class="anchor" id="contact-anchor"></div>
     <?php get_template_part('partials/contact'); ?>
   </div><!-- /relative -->
